@@ -6,7 +6,7 @@ Now that we completed all of our prep work we can provision VMs on VMWware based
 
 First make we have selected the Operations Department and molin for the orgainzation and location.  On the side menu chose Hosts -> Create Host.
 
-![Host -> Create Host](/images/satxx.png)
+![Host -> Create Host](/images/sat95.png)
 
 On the All Hosts > Create Hosts page will start with the Host tab.  For this exercise I'm letting Satellite generate a random name for the server, but you could of course enter a name that follows your ogranization's server naming standards.  Chose the following options to complete this tab.
 
