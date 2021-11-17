@@ -27,7 +27,7 @@ Image | img-rhel8-prem-server
 
 Next click the Resolve button next to the Provisioning Templates option.  Make sure that you see the UserData open-vm-tools template.  Type in the root password for this system. 
 
-![Operating Systems](/images/sat97.png)
+![Operating Systems](/images/sat97a.png)
 
 Now click the Interfaces tab.  You should see that Satellite has already asked for an ip address from our DHCP server.  You click the blue Submit button to start the provisioning process.
 
