@@ -2,7 +2,7 @@
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)
 
-Now that we completed all of our prep work we can provision VMs on VMWware based on specificaitons we defined in the compute profile we define.  As part of the provisioning process we will grab a an available ip addreess from our dhcp server, update the forward and reverse DNS zone records. and register the VM to both our Satellite server and Insights.
+Now that we completed all of our prep work we can provision VMs on VMWware based on specificaitons we defined in the compute profil that we created earlier.  As part of the provisioning process we will grab a an available ip address from our dhcp server, update the forward and reverse DNS zone records. and register the VM to both our Satellite server and Insights.
 
 First make we have selected the Operations Department and molin for the orgainzation and location.  On the side menu chose Hosts -> Create Host.
 
@@ -14,6 +14,8 @@ Option Name | Choice
 ----------- | ------
 Host Group | hg-rhel8-prem-server
 
+![Host Group](/images/sat96.png)
+
 You will notice that all the other fields will be automatically populated.  The Virtual Machine tab has been pre-populated with the information from the compute profile we created.  Please feel free to reveiw this tab.  Next we will choose the Operating System tab.
 
 On the Operating System tab chose the following settings for the options listed below
@@ -23,7 +25,13 @@ Option Name | Choice
 Provisioning Method | Image Based
 Image | img-rhel8-prem-server
 
-Next click the Resolve button next to the Provisioning Templates option.
+Next click the Resolve button next to the Provisioning Templates option.  Make sure that you see the UserData open-vm-tools template.  Type in the root password for this system. 
+
+![Operating Systems](/images/sat97.png)
+
+Now click the Interfaces tab.  You should see that Satellite has already asked for an ip address from our DHCP server.  You click the blue Submit button to start the provisioning process.
+
+![Interfaces](/images/sat98.png)
 
 
 ## References  
