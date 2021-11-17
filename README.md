@@ -33,6 +33,11 @@ Now click the Interfaces tab.  You should see that Satellite has already asked f
 
 ![Interfaces](/images/sat98.png)
 
+You'll next see the steps in the provisioning process.
+
+![Example Provisioning Process](/images/sat98a.png)
+
+And then you will see on the All Hosts screen the VM you just provisioned.  When the provisioning is completed the Build status will change from Pending installation to 
 
 ## References  
 [Installing Satellite Server from a Connected Network](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.9/html/installing_satellite_server_from_a_connected_network/index)   
