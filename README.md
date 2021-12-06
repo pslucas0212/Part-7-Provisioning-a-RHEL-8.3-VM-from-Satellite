@@ -14,7 +14,7 @@ Option Name | Choice
 ----------- | ------
 Host Group | hg-rhel8-prem-server
 
-![Host Group](/images/sat96.png)
+![Host Group](/images/sat96a.png)
 
 You will notice that all the other fields will be automatically populated.  The Virtual Machine tab has been pre-populated with the information from the compute profile we created.  Please feel free to reveiw this tab.  Next we will choose the Operating System tab.
 
