@@ -27,15 +27,15 @@ Image | img-rhel8-prem-server
 
 Next click the Resolve button next to the Provisioning Templates option.  Make sure that you see the UserData open-vm-tools template.  Type in the root password for this system. 
 
-![Operating Systems](/images/sat97a.png)
+![Operating Systems](/images/sat97b.png)
 
 Now click the Interfaces tab.  You should see that Satellite has already asked for an ip address from our DHCP server.  You click the blue Submit button to start the provisioning process.
 
-![Interfaces](/images/sat98.png)
+![Interfaces](/images/sat98a.png)
 
 You'll next see the steps in the provisioning process.
 
-![Example Provisioning Process](/images/sat98a.png)
+![Example Provisioning Process](/images/sat99.png)
 
 And then you will see on the All Hosts screen the VM you just provisioned.  When the provisioning is completed the Build status will change from Pending installation to 
 
