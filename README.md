@@ -2,9 +2,9 @@
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)
 
-Now that we completed all of our prep work we can provision VMs on VMWware based on specificaitons we defined in the compute profil that we created earlier.  As part of the provisioning process we will grab a an available ip address from our dhcp server, update the forward and reverse DNS zone records. and register the VM to both our Satellite server and Insights.
+Now that we completed all of our prep work we can provision VMs on VMWware based on specificaitons we defined in the compute profile that we created in an earlier section.  As part of the provisioning process Satellite will get an available IP address from our DHCP server, update the forward and reverse DNS zone records. and register the VM to both our Satellite server and Red Hat Insights.
 
-First make we have selected the Operations Department and molin for the orgainzation and location.  On the side menu chose Hosts -> Create Host.
+First make sure we have selected the Operations Department and moline for the orgainzation and location.  On the side menu chose Hosts -> Create Host.
 
 ![Host -> Create Host](/images/sat95.png)
 
