@@ -16,7 +16,7 @@ Host Group | hg-rhel8-prem-server
 
 ![Host Group](/images/sat96a.png)
 
-You will notice that all the other fields will be automatically populated.  The Virtual Machine tab has been pre-populated with the information from the compute profile we created.  Please feel free to reveiw this tab.  Next we will choose the Operating System tab.
+You will notice that all the other fields are automatically populated.  The Virtual Machine tab has been pre-populated with the information from the compute profile we created.  Please feel free to reveiw this tab.  Next we will choose the Operating System tab.
 
 On the Operating System tab chose the following settings for the options listed below
 
@@ -33,11 +33,33 @@ Now click the Interfaces tab.  You should see that Satellite has already asked f
 
 ![Interfaces](/images/sat98a.png)
 
-You'll next see the steps in the provisioning process.
+After clicking the blue Submit button, you will next see the steps in the provisioning process on the All Hosts > Create Host page.
 
 ![Example Provisioning Process](/images/sat99.png)
 
-And then you will see on the All Hosts screen the VM you just provisioned.  When the provisioning is completed the Build status will change from Pending installation to 
+After the VM has been provisioned and while the installation is completeing, you will see on the All Hosts screen for your new VM.  Now click the clear link found next to the Pending Installation for Build Properties field.
+
+![Click the clear link](/images/sat100.png)
+
+You will now see the the properties section has changed and the Status property is reporting an Error.  The Error indicates that there are available RHEL security errata that can be applied to our new RHEL VM.  Click the clear link next to the Security errata applicable staus found in the Errata property field to clear the Error status.  
+
+![Click the clear lin](/images/sat101.png)
+
+On the side menu Hosts | Content Hosts to navigate to our newly provisioned VM.
+
+![Hosts | Content Hosts](/images/sat102.png)
+
+On the Content Hosts page you will see that our VM is registered with Satellite and its most recent checkin date with our Satellite server.  Also you will see the number of installable updates available.  We will cover installing updates and patches in a future tutorial.
+
+![Content Hosts Page](/images/sat103.png)
+
+
+
+
+
+
+
+
 
 ## References  
 [Installing Satellite Server from a Connected Network](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.9/html/installing_satellite_server_from_a_connected_network/index)   
