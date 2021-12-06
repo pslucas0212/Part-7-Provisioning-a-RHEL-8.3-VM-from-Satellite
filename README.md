@@ -53,9 +53,23 @@ On the Content Hosts page you will see that our VM is registered with Satellite 
 
 ![Content Hosts Page](/images/sat103.png)
 
-Let's make sure our new RHEL VM is registered to Insights.  Navigate to the [Red Hat Cloud](https://cloud.redhat.com/) and login.
+Let's make sure our new RHEL VM is registered to Insights.  Navigate to the [Red Hat Hybrid Cloud](https://cloud.redhat.com/) and login.  Click on the Console log in link in the upper right and corner and follow the Red Hat login and password prompts.
 
-![Red Hat Cloud](/images/sat104.png)
+![Red Hat Hybrid Cloud](/images/sat104.png)
+
+Now you will be at the Red Hat Hybrid Cloud Console. On the Hybrid Cloud Console you'll see a dashboard for RHEL, Red Hat App services, Ansbile Automation Platform and OpenShift.  Also you'll find recommended tools and articles for you to explore.
+
+On the side menu click the Red Hat Enterprise Linux link.
+
+![Red Hat Hybrid Cloud Console](images/sat105.png)
+
+Now we will see the Red Hat Enterprise Linux Insights page.  ???? Say something else here???  On the side menu, click the Inventory link.
+
+![RHEL Insights](/images/sat106.png)
+
+On in the Inventory page, we see that our VM has been successfuly registered with Insights.  We will look at... in a future blog.
+
+![Insights Inventory](/images/sat107.png)
 
 
 
