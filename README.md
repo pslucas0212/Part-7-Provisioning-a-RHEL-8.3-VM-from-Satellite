@@ -53,7 +53,9 @@ On the Content Hosts page you will see that our VM is registered with Satellite 
 
 ![Content Hosts Page](/images/sat103.png)
 
+Let's make sure our new RHEL VM is registered to Insights.  Navigate to the [Red Hat Cloud](https://cloud.redhat.com/) and login.
 
+![Red Hat Cloud](/images/sat104.png)
 
 
 
