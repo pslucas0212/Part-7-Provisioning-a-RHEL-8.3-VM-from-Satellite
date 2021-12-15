@@ -2,13 +2,13 @@
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)
 
-Now that we completed all of our prep work we can provision VMs on VMWware based on specificaitons we defined in the compute profile that we created in an earlier section.  As part of the provisioning process Satellite will get an available IP address from our DHCP server, update the forward and reverse DNS zone records. and register the VM to both our Satellite server and Red Hat Insights.
+Now that we have completed all of our prep work we can now provision VMs on VMWware based on specification we defined in the compute profile, which we created in an earlier section.  As part of the provisioning process Satellite will get an available IP address from our DHCP server, update the forward and reverse DNS zone records, and register the new RHEL VM to both our Satellite server and Red Hat Insights.
 
 First make sure we have selected the Operations Department and moline for the orgainzation and location.  On the side menu chose Hosts -> Create Host.
 
 ![Host -> Create Host](/images/sat95.png)
 
-On the All Hosts > Create Hosts page will start with the Host tab.  For this exercise I'm letting Satellite generate a random name for the server, but you could of course enter a name that follows your ogranization's server naming standards.  Chose the following options to complete this tab.
+On the All Hosts > Create Hosts page will start with the Host tab.  For this exercise I'm letting Satellite generate a random fully qualified domain name (FQDN) for the server, but you could of course enter a FQDN that follows your ogranization's server naming standards.  Chose the following options to complete this tab.
 
 Option Name | Choice
 ----------- | ------
@@ -29,7 +29,7 @@ Next click the Resolve button next to the Provisioning Templates option.  Make s
 
 ![Operating Systems](/images/sat97b.png)
 
-Now click the Interfaces tab.  You should see that Satellite has already asked for an ip address from our DHCP server.  You click the blue Submit button to start the provisioning process.
+Now click the Interfaces tab.  You should see that Satellite has already assigned an ip addressto our new RHEL VM.  You can now click the blue Submit button to start the provisioning process.
 
 ![Interfaces](/images/sat98a.png)
 
@@ -37,7 +37,7 @@ After clicking the blue Submit button, you will next see the steps in the provis
 
 ![Example Provisioning Process](/images/sat99.png)
 
-After the VM has been provisioned and while the installation is completeing, you will see on the All Hosts screen for your new VM.  Now click the clear link found next to the Pending Installation for Build Properties field.
+After the RHEL VM has been provisioned and while the installation is completeing, you will see on the All Hosts screen for your new VM.  Now click the clear link found next to the Pending Installation for Build Properties field.
 
 ![Click the clear link](/images/sat100.png)
 
