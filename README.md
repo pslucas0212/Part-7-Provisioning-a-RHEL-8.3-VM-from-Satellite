@@ -37,7 +37,7 @@ After clicking the blue Submit button, you will next see the steps in the provis
 
 ![Example Provisioning Process](/images/sat99.png)
 
-After the RHEL VM has been provisioned and while the installation is completeing, you will see on the All Hosts screen for your new VM.  Now click the clear link found next to the Pending Installation for Build Properties field.
+After the RHEL VM has been provisioned and while the installation is completeing, you will see on the All Hosts screen for your new VM.  Next click the clear link found next to the Pending Installation message in for the Build Properties field.
 
 ![Click the clear link](/images/sat100.png)
 
