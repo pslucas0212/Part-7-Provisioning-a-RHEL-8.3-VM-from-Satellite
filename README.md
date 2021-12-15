@@ -2,13 +2,13 @@
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)
 
-Now that we have completed all of our prep work we can now provision VMs on VMWware based on specification we defined in the compute profile, which we created in an earlier section.  As part of the provisioning process Satellite will get an available IP address from our DHCP server, update the forward and reverse DNS zone records, and register the new RHEL VM to both our Satellite server and Red Hat Insights.
+Now that we have completed all of our prep work we can now provision VMs on VMWware based on specification we defined in the compute profile, which we created in an earlier section.  As part of the provisioning process Satellite will request an available IP address from our DHCP server, update the forward and reverse DNS zone records, and register the new RHEL VM to both our Satellite server and Red Hat Insights.
 
 First make sure we have selected the Operations Department and moline for the orgainzation and location.  On the side menu chose Hosts -> Create Host.
 
 ![Host -> Create Host](/images/sat95.png)
 
-On the All Hosts > Create Hosts page will start with the Host tab.  For this exercise I'm letting Satellite generate a random fully qualified domain name (FQDN) for the server, but you could of course enter a FQDN that follows your ogranization's server naming standards.  Chose the following options to complete this tab.
+On the All Hosts > Create Hosts page will start with the Host tab.  For this exercise I'm letting Satellite generate a random hostname for the server, but you could of course enter a hostname that follows your ogranization's server naming standards.  Chose the following options to complete this tab.
 
 Option Name | Choice
 ----------- | ------
