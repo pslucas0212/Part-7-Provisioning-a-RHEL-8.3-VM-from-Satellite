@@ -69,11 +69,11 @@ Now we will see the Red Hat Enterprise Linux Insights page.  On the side menu, c
 
 ![RHEL Insights](/images/sat106.png)
 
-On in the Inventory page, we see that our VM has been successfuly registered with Insights.  In a future article we will look at how to automaticall push updates from the Insight page to a VM managed by Satellite.
+On the Inventory page, we see that our VM has been successfuly registered with Insights.  In a future article we will look at how to automatically push updates from the Insight page to a VM managed by Satellite.
 
 ![Insights Inventory](/images/sat107.png)
 
-
+This concludes are series on provisioning VMs to VMWare from Satellite.  This series gives you a small glimplse into the capabilites of Satellite.  Satellite provides us with any easy way to curate content, provision new RHEL systems and patch/update RHEL systems for our RHEL environments across all deployment platforms on-prem and in the cloud.
 
 ## Insights Articles
 [Red Hat Insights: Predictive analytics for Red Hat Enterprise Linux](https://www.redhat.com/en/resources/insights-predictive-risk-analytics-datasheet)  
