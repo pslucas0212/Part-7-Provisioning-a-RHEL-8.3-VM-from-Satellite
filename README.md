@@ -61,6 +61,8 @@ Now you will be at the Red Hat Hybrid Cloud Console. On the Hybrid Cloud Console
 
 On the side menu click the Red Hat Enterprise Linux link to navigate to Red hat Enterprise Linux Insights.  From the Red Hat Insights page: "ncluded with Red Hat subscriptions, Insights uses predictive analytics and deep domain expertise to reduce complex operational tasks from hours to minutes, including identifying security and performance risks, tracking licenses, and managing costs."
 
+For more information see the links in the Insights Articles section below.
+
 ![Red Hat Hybrid Cloud Console](images/sat105.png)
 
 Now we will see the Red Hat Enterprise Linux Insights page.  On the side menu, click the Inventory link.
@@ -73,8 +75,8 @@ On in the Inventory page, we see that our VM has been successfuly registered wit
 
 
 
-# Insights Articles
-[Red Hat Insights: Predictive analytics for Red Hat Enterprise Linux](https://www.redhat.com/en/resources/insights-predictive-risk-analytics-datasheet)
+## Insights Articles
+[Red Hat Insights: Predictive analytics for Red Hat Enterprise Linux](https://www.redhat.com/en/resources/insights-predictive-risk-analytics-datasheet)  
 [Save administrator time and effort by activating Red Hat Insights to automate monitoring](https://www.redhat.com/cms/managed-files/ma-save-administrator-time-analyst-paper-f25355-202009-en.pdf)
 
 
