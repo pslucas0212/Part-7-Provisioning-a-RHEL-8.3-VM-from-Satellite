@@ -2,7 +2,7 @@
 
 [Tutorial Menu](https://github.com/pslucas0212/RedHat-Satellite-VM-Provisioning-to-vSphere-Tutorial)
 
-Now that we have completed all of our prep work we can now provision VMs on VMWware based on specification we defined in the compute profile, which we created in an earlier section.  As part of the provisioning process Satellite will request an available IP address from our DHCP server, update the forward and reverse DNS zone records, and register the new RHEL VM to both our Satellite server and Red Hat Insights.
+Now that we have completed all of our prep work we can now provision VMs to our VMWware cluster using the specification we defined in the compute profile.  As part of the provisioning process Satellite will request an available IP address from our DHCP server, update the forward and reverse DNS zone records, provision the VM on our VMWare cluseter, and register the new RHEL VM to both our Satellite server and Red Hat Insights.
 
 First make sure we have selected the Operations Department and moline for the orgainzation and location.  On the side menu chose Hosts -> Create Host.
 
@@ -59,21 +59,23 @@ Let's make sure our new RHEL VM is registered to Insights.  Navigate to the [Red
 
 Now you will be at the Red Hat Hybrid Cloud Console. On the Hybrid Cloud Console you'll see a dashboard for RHEL, Red Hat App services, Ansbile Automation Platform and OpenShift.  Also you'll find recommended tools and articles for you to explore.
 
-On the side menu click the Red Hat Enterprise Linux link.
+On the side menu click the Red Hat Enterprise Linux link to navigate to Red hat Enterprise Linux Insights.  From the Red Hat Insights page: "ncluded with Red Hat subscriptions, Insights uses predictive analytics and deep domain expertise to reduce complex operational tasks from hours to minutes, including identifying security and performance risks, tracking licenses, and managing costs."
 
 ![Red Hat Hybrid Cloud Console](images/sat105.png)
 
-Now we will see the Red Hat Enterprise Linux Insights page.  ???? Say something else here???  On the side menu, click the Inventory link.
+Now we will see the Red Hat Enterprise Linux Insights page.  On the side menu, click the Inventory link.
 
 ![RHEL Insights](/images/sat106.png)
 
-On in the Inventory page, we see that our VM has been successfuly registered with Insights.  We will look at... in a future blog.
+On in the Inventory page, we see that our VM has been successfuly registered with Insights.  In a future article we will look at how to automaticall push updates from the Insight page to a VM managed by Satellite.
 
 ![Insights Inventory](/images/sat107.png)
 
 
 
-
+# Insights Articles
+[Red Hat Insights: Predictive analytics for Red Hat Enterprise Linux](https://www.redhat.com/en/resources/insights-predictive-risk-analytics-datasheet)
+[Save administrator time and effort by activating Red Hat Insights to automate monitoring](https://www.redhat.com/cms/managed-files/ma-save-administrator-time-analyst-paper-f25355-202009-en.pdf)
 
 
 
